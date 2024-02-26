@@ -150,11 +150,9 @@ a:hover {
   object-fit: cover;
 }
 
+.atlas-pic,
 .school-pic {
-  object-fit: cover;
-}
-.atlas-pic {
-  align-items: center;
+  text-align: center;
 }
 
 /* SECTION STYLING */
