@@ -362,6 +362,10 @@ article .icon {
   cursor: default;
 }
 
+.text-container {
+  margin-top: 10px;
+  text-align: center;
+}
 /* Projects */
 
 #projects {
