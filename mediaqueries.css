@@ -103,4 +103,8 @@
   .school-pic {
     width: 55vw;
   }
+  .school-pic,
+  .section-container {
+    align-items: center;
+  }
 }
