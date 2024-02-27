@@ -105,6 +105,9 @@
   }
   .school-pic,
   .section-container {
-    align-items: center;
+    margin: auto;
+  }
+  .atlas-pic {
+    margin: auto;
   }
 }
