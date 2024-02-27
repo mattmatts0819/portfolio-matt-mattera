@@ -455,6 +455,10 @@ article .icon {
 }
 
 /* involvement section */
+#involvement {
+  position: relative;
+}
+
 .involvement-details-container {
   flex-direction: column;
   display: flex;
