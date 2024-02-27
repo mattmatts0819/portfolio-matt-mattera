@@ -100,4 +100,7 @@
   .text-container {
     text-align: justify;
   }
+  .school-pic {
+    width: 55vw;
+  }
 }
