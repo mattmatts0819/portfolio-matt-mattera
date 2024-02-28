@@ -473,3 +473,19 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Photo album styling */
+
+.album-title {
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 8px;
+}
+.col {
+  display: flex;
+}
+.photo-rows img {
+  width: 25vw;
+  display: grid;
+  margin: 5px;
+}

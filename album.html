@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Photo Album</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/images_AvW_icon.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Matt Mattera</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#Involvement">Involvement</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Matt Mattera</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#invlovement" onclick="toggleMenu()">Involvement</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="photo-album">
+      <div class="album-title">
+        <h1>My Photos</h1>
+      </div>
+      <div class="photo-rows">
+        <div class="col">
+          <img src="assets/corvette.jpg" alt="corvette pic" />
+          <img src="assets/countach.jpg" alt="countach pic" />
+          <img src="assets/ferrari.jpg" alt="ferrari pic" />
+        </div>
+        <div class="col">
+          <img src="assets/ivy.jpg" alt="ivy pic" />
+          <img src="assets/porsche.jpg" alt="porsche pic" />
+          <img src="assets/rear-ferrari.jpg" alt="rear-ferrari pic" />
+        </div>
+        <div class="col">
+          <img src="assets/skyline.jpg" alt="skyline pic" />
+          <img src="assets/subaru.jpg" alt="subaru pic" />
+          <img src="assets/window.jpg" alt="window pic" />
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
