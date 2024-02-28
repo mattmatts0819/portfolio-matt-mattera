@@ -157,8 +157,7 @@ a:hover {
 
 /* SECTION STYLING */
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  padding-top: 15vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -475,7 +474,10 @@ footer p {
 }
 
 /* Photo album styling */
-
+.photos {
+  text-align: center;
+  margin-top: 5vh;
+}
 .album-title {
   text-align: center;
   font-size: larger;
