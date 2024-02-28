@@ -474,6 +474,9 @@ footer p {
 }
 
 /* Photo album styling */
+#photo-album {
+  position: relative;
+}
 .photos {
   text-align: center;
   margin-top: 5vh;
