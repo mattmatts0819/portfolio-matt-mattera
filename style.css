@@ -477,6 +477,10 @@ footer p {
 #photo-album {
   position: relative;
 }
+.photo-rows {
+  position: relative;
+  left: 4%;
+}
 .photos {
   text-align: center;
   margin-top: 5vh;
@@ -489,6 +493,7 @@ footer p {
 .col {
   display: flex;
 }
+
 .photo-rows img {
   width: 25vw;
   display: grid;
