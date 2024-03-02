@@ -391,6 +391,12 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+#projects > .details-container,
+.color-container {
+  width: 40vw;
+  margin: auto;
+}
+
 /* Contacts page */
 
 #contact {
